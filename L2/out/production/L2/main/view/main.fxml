@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controller.MainController">
+   <children>
+      <AnchorPane fx:id="matrixPane" prefHeight="600.0" prefWidth="400.0" style="-fx-border-color: black;">
+         <children>
+            <Button fx:id="matrixButton" layoutX="329.0" layoutY="559.0" mnemonicParsing="false" onAction="#goToSDI" text="Matrix" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="animationPane" prefHeight="600.0" prefWidth="400.0" style="-fx-border-color: black;" />
+   </children>
+</HBox>
